@@ -1,0 +1,44 @@
+{
+  "name": "database-prisma",
+  "version": "0.1.0",
+  "description": "Prisma adaptor for accounts",
+  "author": "lwsy <1290504514@qq.com>",
+  "homepage": "https://github.com/lwsys/accounts#readme",
+  "license": "MIT",
+  "main": "lib/database-prisma.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwsys/accounts.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "echo":"prisma"
+  },
+  "bugs": {
+    "url": "https://github.com/lwsys/accounts/issues"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.8.0",
+    "prisma": "^4.8.0",
+    "@accounts/types": "^0.33.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@accounts/database-tests": "^0.32.2",
+    "@types/jest": "27.0.2",
+    "@types/node": "16.11.7",
+    "jest": "27.3.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.7"
+  }
+}

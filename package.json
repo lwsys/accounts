@@ -61,6 +61,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.4.1",
     "@changesets/cli": "2.18.0",
+    "@types/jest": "27.0.2",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "@typescript-eslint/parser": "5.4.0",
     "eslint": "8.2.0",
@@ -68,7 +69,7 @@
     "eslint-plugin-jest": "25.2.4",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
-    "lerna": "4.0.0",
+    "lerna": "^4.0.0",
     "lint-staged": "12.0.2",
     "prettier": "2.4.1",
     "typescript": "4.5.2"
@@ -77,5 +78,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/accounts-js",
     "logo": "https://opencollective.com/accounts-js/logo.txt"
-  }
+  },
+  "name": "accounts"
 }
